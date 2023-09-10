@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}
+/* section 1 */
+.head-banner{
+    border: 1px solid #7A6154;
+    background-color: #7A6154;
+    display:inline-flex;
+    width: 100%;
+    height: 1.2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.text1 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 50%;
+    color: white;
+    margin:auto
+}
+
+.text2{
+    padding-left: 48%;
+    display:flex
+}
+.element{
+    align-items: center;
+    display: flex;
+}
+.element i{
+    font-size: 50%;
+    color:white;
+    padding-right: 0.3rem;
+}
+.element a{
+    font-family: 'Inter', sans-serif;
+    font-size: 50%;
+    color: white;
+    text-decoration: none;
+}
+.divider {
+    width: 1px;
+    background-color: white;
+    margin: 0 10px;
+}
+/* section 2 */
+.logo{
+    padding-left: 5%;
+}
+.top-header{
+    display:flex
+}
+/* navigation */
+.navigation{
+    padding-left: 20%;
+}
+.navbar{
+    width: 0%;   
+}
+.nav-link{
+    width: 100%;
+    font-size: 70%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:#7A6154;
+}
+.dropdown-menu{
+width: 10%;
+}
+.dropdown-item{
+    font-size: 70%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.dropdown-item:hover{
+    color:#7A6154;
+}
+.dropdown-item:click{
+    background-color: white;
+}
+/* top header back */
+.top-header-back{
+    display: flex;
+    padding-top: 1%;
+    padding-left: 17%;
+    height: 2rem;
+    align-items: center;
+    width: 49%;
+}
+
+.back-element1 a{
+    font-family: 'Inter', sans-serif;
+    font-size: 70%;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+.back-element1 i{
+    font-size: 70%;
+    padding-left: 12%;
+    padding-right: 5%;
+    width: 1%;
+}
+.divider2 {
+    width: 1.2px;
+    background-color: black;
+    margin: 0 10px;
+    height:1rem;
+}
+.back-element2{
+    display: flex;
+}
+.item1{
+    display: contents;
+}
+.item1 a i{
+    font-size: 70%;
+}
+.item1 p{
+    font-size: 60%;
+    font-family: 'Inter';
+    font-weight: bold;
+    padding-right: 29%;
+
+}
+.item2{
+    display: contents;
+}
+.item2 a i{
+    font-size: 70%;
+}
+.item2 p{
+    font-size: 60%;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+.back-element1 {
+    position: relative;
+  }
+  
+  .search-box {
+    display: none;
+    position: absolute;
+    top: 109%;
+    left: -59px;
+    width: 185px;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+.search-box input{
+    width: 100%;
+    height: auto;
+    font-size: 64%;
+    font-family: 'Inter';
+}
+.search-box button{
+    padding: 2%;
+    font-size: 47%;
+}
+#search-icon {
+    cursor: pointer;
+}
+#search-icon.clicked + .search-box {
+    display: block;
+}
+/* section 3 */
+.main-body{
+    padding-left: 18%;
+    padding-right: 18%;
+}
+/* Banner */
+.banner{
+    display:flex;
+}
+.left-banner{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.banner-img1{
+    position: absolute;
+    
+}
+.banner-img1 img{
+    width: 53%;
+}
+.banner-img2{
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 20%;
+
+}
+.banner-img2 img{
+    width:77%;
+}
+.right-banner{
+    padding-top: 17%;
+}
+.right-banner-text h6{
+    font-size: 51%;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.right-banner-text h5{
+    font-size: 267%;
+    font-family: 'Inter', sans-serif;
+}
+.right-banner-text p{
+    font-size: 60%;
+    font-family: 'Inter', sans-serif;
+}
+.right-banner-text a{
+    border: 1.5px solid black;
+    padding: 3% 10% 3% 10%;
+    font-size: 59%;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color:#000;
+
+}
+/* Service */
+.main-service{
+    display:flex;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+.service{
+    display:flex;
+}
+.service-img img{
+    width: 60%;
+}
+.service-text h6{
+    font-size: 50%;
+    font-family: 'Urbanist';
+    font-weight: bold;
+}
+.service-text p{
+    font-family: 'Inter';
+    font-size: 50%;
+}
+/* Discount banner */
+.main-discount{
+    border: 1px solid #DBCDC7;
+    background-color: #DBCDC7;
+    padding: 5% 4% 5% 4%;
+    margin-bottom: 4%;
+}
+.discount{
+    display:flex
+}
+.discount p{
+    padding-right: 17%;
+}
+.discount a{
+    border: 1.5px solid black;
+    background-color: black;
+    padding: 1% 4% 0% 4%;
+    font-size: 59%;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2%;
+}
+/* Collection */
+.main-collection{
+    display:flex;
+    padding: 0%;
+}
+.left-collection-img img{
+    width: 95%;
+}
+.collection-text1 h6{
+    font-size: 50%;
+    padding-top: 4%;
+    font-weight: bold;
+}
+.collection-text1 p{
+    font-size: 83%;
+    width: 50%;
+    font-weight: 500;
+}
+.right-collection{
+    margin-right:-2.5%;
+}
+.right-collection-img img{
+    width: 95%;
+}
+.collection-text2 h6{
+    font-size: 50%;
+    font-weight: bold;
+}
+.collection-text2 p{
+    font-size: 83%;
+    width: 40%;
+    font-weight: 500;
+}
