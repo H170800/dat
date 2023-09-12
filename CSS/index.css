@@ -304,3 +304,144 @@ width: 10%;
     width: 40%;
     font-weight: 500;
 }
+/* Items */
+.main-items{
+    padding-top: 6%;
+}
+.text-items{
+    text-align: center;
+}
+.text-items h6{
+    font-size: 50%;
+    font-weight: bold;
+}
+.text-items p{
+    font-weight: 500;
+    font-size: 130%;
+}
+.items-img{
+    position: relative;
+}
+.items-img img{
+    width: 108%;
+}
+.promotion-price{
+    position: absolute;
+    top: 6%;
+    left: 82%;
+    font-size: 52%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 19%;
+    text-align: center;
+}
+.items-name{
+    text-decoration: none;
+    color: #000;
+    font-size: 70%;
+    font-weight: 500;
+}
+.items-price{
+    display:flex;
+}
+.before-price{
+    font-size: 60%;
+    text-decoration: line-through;
+}
+.after-price{
+    font-size: 60%;
+    padding-left: 1%;
+}
+.color-selector {
+    display: flex;
+    padding-bottom: 11%;
+  }
+  
+.color-option {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+/* Footer */
+/* top-footer */
+.main-footer{
+    width: 100%;
+    background-color: #F5F4F3;
+}
+.top-footer{
+    padding: 5%;
+    display:flex;
+}
+.section{
+    margin-right: 9%;
+    width: 12%;
+}
+.section h6{
+    font-size: 75%;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.section-link{
+    display:grid
+}
+.section-link a{
+    font-size: 60%;
+    text-decoration: none;
+    color: #666666;
+    padding-bottom: 9%;
+    font-family: 'Inter', sans-serif;
+} 
+.section2 h6{
+    font-size: 75%;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.section2 p{
+    font-size: 60%;
+    width: 96%;
+    font-family: 'Inter', sans-serif;
+    color:#535353;
+}
+/* form */
+.submit-form {
+    display: flex;
+    align-items: inherit;
+    width:90%;
+}
+.submit-form input{
+    border: 1px solid black;
+}
+.submit-form input[type="text"] {
+    flex: 1;
+    padding-right: 10px;
+    text-align: left;
+    font-size: medium;
+}
+.submit-form input[type="text"]::placeholder {
+    text-align: justify;
+    padding-left: 5%;
+    font-size: 60%;
+    transform: translateY(-30%);
+    font-family: 'Inter', sans-serif;
+}
+
+.submit-form button {
+    margin-left: 0%;
+    width:22%;
+    background-color: black;
+    border: black;
+}
+.submit-form button i{
+    color:white;
+}
+/* Bottom footer */
+.bottom-footer{
+    padding: 1% 5% 1% 5%;
+}
+.bottom-footer {
+    border-top: 1px solid #C8C8C8; /* Đường kẻ trắng */
+    margin-top: 20px; /* Khoảng cách giữa đường kẻ và top-footer */
+}
